@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'WebViewJavascriptBridge'
-  s.version      = '7.1.0'
+  s.version      = '7.1.1'
   s.summary      = 'An iOS & OSX bridge for sending messages between Obj-C/Swift and JavaScript in WKWebViews & WebViews.'
   s.homepage     = 'https://github.com/castbox/WebViewJavascriptBridge'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   
   s.subspec 'Privacy' do |ss|
       ss.resource_bundles = {
-        "Privacy" => 'WebViewJavascriptBridge/Resources/PrivacyInfo.xcprivacy'
+          s.name => 'WebViewJavascriptBridge/Resources/PrivacyInfo.xcprivacy'
       }
   end
 end
